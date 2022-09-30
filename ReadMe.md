@@ -10,7 +10,7 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 # Major Publications
 - DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/abs/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
 - DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
-- DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf) [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
+- DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
 - DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
 
 # Talks and Articles
