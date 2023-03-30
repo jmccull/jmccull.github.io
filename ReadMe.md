@@ -1,4 +1,4 @@
-<img src="{{site.url}}/images/affiliations.PNG?raw=true" 
+<img src="{{site.url}}/images/affiliations.PNG" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
