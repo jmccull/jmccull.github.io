@@ -295,3 +295,8 @@ steps:
         data:
           deploymentUrl: '%actions.pagesUrl.data.html_url%'
 url: "https://jmccull.github.io"
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
