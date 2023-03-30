@@ -1,4 +1,4 @@
-<img src="{{site.url}}/images/affiliations.PNG" 
+<img src="{{site.url}}/images/affiliations.png" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
@@ -35,7 +35,9 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
      height = auto />
 </p>
 
-(Left) The proposed 4C3R2 wide (red) and deep (blue) color selection in the Masters+ 2017 self-organizing map, which covers Euclid/Rubin like depth. Faded cells depict the estimated, complementary WAVES selection. (Right) The existing spectroscopy in the field, from preliminary DESI results and previous, sparser high-redshift searches in the COSMOS field.
+(Left) The proposed 4C3R2 wide (red) and deep (blue) color selection in the Masters+ 2017 self-organizing map, which covers Euclid/Rubin like depth. Faded cells depict the estimated, complementary WAVES selection. 
+
+(Right) The existing spectroscopy in the field, from preliminary DESI results and previous, sparser high-redshift searches in the COSMOS field.
 
 ### DESI
 
