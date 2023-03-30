@@ -10,13 +10,8 @@
  </p>
 
 <p align="center"> 
-<a href="https://jmccull.github.io/images"><img alt="ACAI Summit, Wendelstein" 
-     src="https://jmccull.github.io/images/Bild004_Neg.Nr.N4.jpg"
-     width = 50%;
-     height =auto ></a>
-</p>
-<p align="center"> 
-ACAI at the Wendelstein Observatory </p>
+<a href="https://jmccull.github.io/images/Bild004_Neg.Nr.N4.jpg?raw=True"><img src="https://jmccull.github.io/images/Bild004_Neg.Nr.N4.jpg?raw=True" width = 50%; height =auto ></a></p>
+<p align="center">ACAI at the Wendelstein Observatory </p>
 
 ## Research
 ### Calibration of the Color Redshift Relationship
@@ -24,11 +19,7 @@ ACAI at the Wendelstein Observatory </p>
 As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
 
 <p align="center">
-<a href="https://jmccull.github.io/images"><img alt="4C3R2 Color Selection" 
-     src="https://jmccull.github.io/images/4c3r2_messenger_selection.png"
-     width = 60%;
-     height =auto ></a>
-</p>
+<a href="https://jmccull.github.io/images/4c3r2_messenger_selection.png?raw=True"><img src="https://jmccull.github.io/images/4c3r2_messenger_selection.png?raw=True" width = 60%; height =auto ></a></p>
 
 (Left) The proposed 4C3R2 wide (red) and deep (blue) color selection in the Masters+ 2017 self-organizing map, which covers Euclid/Rubin like depth. Faded cells depict the estimated, complementary WAVES selection. 
 
@@ -37,20 +28,12 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 #### DESI
 
 <p align="center"> 
-<a href="https://jmccull.github.io/images"><img alt="DESI / COSMOS Coverage" 
-     src="https://jmccull.github.io/images/DESI coverage.png"
-     width = 100%;
-     height =auto ></a>
-</p>
+<a href="https://jmccull.github.io/images/DESI coverage.png?raw=True"><img src="https://jmccull.github.io/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
 
 ### Shear Calibration and Shape Measurement
 <p align="center">
-<a href="https://jmccull.github.io/images"><img alt="DES Y3 Image Simulations" 
-     src="https://jmccull.github.io/images/imsims_fullsize.png"
-     width = 90%;
-     height =auto ></a>
-</p>
+<a href="https://jmccull.github.io/images/imsims_fullsize.png?raw=True"><img src="https://jmccull.github.io/images/imsims_fullsize.png?raw=True" width = 90%; height =auto ></a></p>
 
 ## Major Publications
 - DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/abs/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
