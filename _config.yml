@@ -294,7 +294,7 @@ steps:
         with: 07_next-steps.md
         data:
           deploymentUrl: '%actions.pagesUrl.data.html_url%'
-url: "https://jmccull.github.io"
+url: https://jmccull.github.io
 defaults:
   - scope:
       path: "images"
