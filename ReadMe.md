@@ -4,8 +4,6 @@
      height = auto />
 
 # Jamie McCullough
-## About
-Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. As part of the LMU Astrophysics, Cosmology, and Artificial Intelligence research group, she substantially contributed to the [Dark Energy Survey](https://www.darkenergysurvey.org/) Y3 Analysis and is an active member in the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/), and the [4-metre Multi-Object Spectroscopic Telescope (4MOST)](https://www.4most.eu/cms/) collaborations.
 
 <p align="center">
 <img src="./images/profile.jpg?raw=true"
