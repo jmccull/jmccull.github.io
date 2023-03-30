@@ -1,4 +1,4 @@
-<img src="./images/affiliations.png" 
+<img src="{{site.url}}/images/affiliations.png" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
@@ -8,14 +8,14 @@
 Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. As part of the LMU Astrophysics, Cosmology, and Artificial Intelligence research group, she substantially contributed to the [Dark Energy Survey](https://www.darkenergysurvey.org/) Y3 Analysis and is an active member in the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/), and the [4-metre Multi-Object Spectroscopic Telescope (4MOST)](https://www.4most.eu/cms/) collaborations.
 
 <p align="center">
-<img src="./images/profile.jpg" 
+<img src="{{site.url}}/images/profile.jpg" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
  </p>
 
 <p align="center"> 
-<img src="./images/Bild004_Neg.Nr.N4.jpg" 
+<img src="{{site.url}}/images/Bild004_Neg.Nr.N4.jpg" 
      style="display: block; margin: auto;" 
      width = 50%;
      height = auto />
@@ -29,7 +29,7 @@ ACAI at the Wendelstein Observatory </p>
 As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
 
 <p align="center"> 
-<img src="./images/4c3r2_messenger_selection.png" 
+<img src="{{site.url}}/images/4c3r2_messenger_selection.png" 
      style="display: block; margin: auto;" 
      width = 60%;
      height = auto />
@@ -40,7 +40,7 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 ### DESI
 
 <p align="center"> 
-<img src="./images/DESI coverage.png" 
+<img src="{{site.url}}/images/DESI coverage.png" 
      style="display: block; margin: auto;" 
      width = 100%;
      height = auto />
@@ -49,7 +49,7 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 
 ## Shear Calibration and Shape Measurement
 <p align="center"> 
-<img src="./images/imsims_fullsize.png" 
+<img src="{{site.url}}/images/imsims_fullsize.png" 
      style="display: block; margin: auto;" 
      width = 90%;
      height = auto />
