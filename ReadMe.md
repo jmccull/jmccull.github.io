@@ -1,5 +1,5 @@
-<a href="https://jmccull.github.io/images"><img alt="affiliations" 
-     src="https://jmccull.github.io/images/affiliations.png"
+<a href="https://jmccull.github.io/images/affiliations.png"><img alt="affiliations" 
+     src="https://jmccull.github.io/images/affiliations.png?raw=True"
      width = 35%;
      height =auto ></a>
 
