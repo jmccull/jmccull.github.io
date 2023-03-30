@@ -1,4 +1,4 @@
-<img src="https://jmccull.github.io/images/affiliations.png" 
+<img src="/images/affiliations.png" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
@@ -8,14 +8,14 @@
 Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. As part of the LMU Astrophysics, Cosmology, and Artificial Intelligence research group, she substantially contributed to the [Dark Energy Survey](https://www.darkenergysurvey.org/) Y3 Analysis and is an active member in the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/), and the [4-metre Multi-Object Spectroscopic Telescope (4MOST)](https://www.4most.eu/cms/) collaborations.
 
 <p align="center">
-<img src="https://jmccull.github.io/images/profile.jpg" 
+<img src="/images/profile.jpg" 
      style="display: block; margin: auto;" 
      width = 35%;
      height = auto />
  </p>
 
 <p align="center"> 
-<img src="https://jmccull.github.io//images/Bild004_Neg.Nr.N4.jpg" 
+<img src="/images/Bild004_Neg.Nr.N4.jpg" 
      style="display: block; margin: auto;" 
      width = 50%;
      height = auto />
