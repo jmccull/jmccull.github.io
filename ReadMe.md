@@ -64,6 +64,6 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 # Talks and Articles
 - American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8) <a href="/files/APS_ The role of DESI in Photo-z Inference for LSST, Euclid, and future cosmological surveys.pdf">(Slides)</a>
 - A KIPAC Blogpost: [_(How to tease out the tiniest distortions of galaxy shapes to probe the secrets of the Universe)_](https://www.darkenergysurvey.org/darchive/how-to-tease-out-the-tiniest-distortions-of-galaxy-shapes-to-probe-the-secrets-of-the-universe/) 
-- Poster: [_(Detection Sensitivity for the Gemini Planet Imager (GPI) to Potential Europa Plumes)_](https://www.essoar.org/doi/abs/10.1002/essoar.10502035.1)
+- Poster: [_(Detection Sensitivity for the Gemini Planet Imager (GPI) to Potential Europa Plumes)_](https://essopenarchive.org/doi/full/10.1002/essoar.10502035.1)
 - A Brief Introduction to [Heavy Element Synthesis and Neutron Star Mergers](http://large.stanford.edu/courses/2021/ph241/mccullough2/)
 - An Aside on the [Bussard Ramjet](http://large.stanford.edu/courses/2021/ph241/mccullough1/)
