@@ -296,6 +296,7 @@ steps:
         data:
           deploymentUrl: '%actions.pagesUrl.data.html_url%'
 url: https://jmccull.github.io
+markdown: GFM
 defaults:
   - scope:
       path: "/images"
