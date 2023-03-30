@@ -51,7 +51,7 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 <p align="center"> 
 <img src="https://jmccull.github.io/images/imsims_fullsize.png" 
      style="display: block; margin: auto;" 
-     width = 10%;
+     width = 90%;
      height = auto />
 </p>
 
