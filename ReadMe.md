@@ -49,9 +49,9 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 
 ## Shear Calibration and Shape Measurement
 <p align="center"> 
-<img src="https://jmccull.github.io/images/imsims_fullsize.jpg" 
+<img src="https://jmccull.github.io/images/imsims_fullsize.png" 
      style="display: block; margin: auto;" 
-     width = 100%;
+     width = 10%;
      height = auto />
 </p>
 
