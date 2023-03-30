@@ -1,14 +1,31 @@
-<img src="{{site.url}}/images/affiliations.png" style="display: block; margin: auto;" />
+<img src="https://jmccull.github.io/images/affiliations.png" 
+     style="display: block; margin: auto;" 
+     width = 35%;
+     height = auto />
 
 # Jamie McCullough
 ## About
-Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. She substantially contributed to the [Dark Energy Survey](https://www.darkenergysurvey.org/) Y3 Analysis and is an active member in the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/), and the [4-metre Multi-Object Spectroscopic Telescope (4MOST)](https://www.4most.eu/cms/) collaborations.
+Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. As part of the LMU Astrophysics, Cosmology, and Artificial Intelligence research group, she substantially contributed to the [Dark Energy Survey](https://www.darkenergysurvey.org/) Y3 Analysis and is an active member in the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/), and the [4-metre Multi-Object Spectroscopic Telescope (4MOST)](https://www.4most.eu/cms/) collaborations.
 
-<img src="{{site.url}}/images/profile.jpg" style="display: block; margin: auto;" />
+<p align="center">
+<img src="https://jmccull.github.io/images/profile.jpg" 
+     style="display: block; margin: auto;" 
+     width = 35%;
+     height = auto />
+ </p>
+
+<p align="center"> 
+<img src="https://jmccull.github.io//images/Bild004_Neg.Nr.N4.jpg" 
+     style="display: block; margin: auto;" 
+     width = 50%;
+     height = auto />
+</p>
+<p align="center"> 
+ACAI at the Wendelstein Observatory </p>
 
 # Research
 ## Calibration of the Color Redshift Relationship
-As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, there is tremendous interest in filling the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span.
+As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2
 ## Shear Calibration and Shape Measurement
 
 # Major Publications
@@ -18,7 +35,7 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 - DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
 
 # Talks and Articles
-- American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8)
+- American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8) <a href="/files/APS_ The role of DESI in Photo-z Inference for LSST, Euclid, and future cosmological surveys.pdf">(Slides)</a>
 - A KIPAC Blogpost: [_(How to tease out the tiniest distortions of galaxy shapes to probe the secrets of the Universe)_](https://www.darkenergysurvey.org/darchive/how-to-tease-out-the-tiniest-distortions-of-galaxy-shapes-to-probe-the-secrets-of-the-universe/) 
 - Poster: [_(Detection Sensitivity for the Gemini Planet Imager (GPI) to Potential Europa Plumes)_](https://www.essoar.org/doi/abs/10.1002/essoar.10502035.1)
 - A Brief Introduction to [Heavy Element Synthesis and Neutron Star Mergers](http://large.stanford.edu/courses/2021/ph241/mccullough2/)
