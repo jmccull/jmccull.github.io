@@ -3,6 +3,7 @@ title: Research Overview
 description: Bookmark this page to keep an eye on my project updates!
 # drawn via tutorial from https://github.com/githubtraining/github-pages/blob/main/config.yml
 tagline: Your sidekick in using GitHub Pages and blogs
+baseurl: https://jmccull.github.io/
 tags:
   - GitHub
   - GitHub Pages
