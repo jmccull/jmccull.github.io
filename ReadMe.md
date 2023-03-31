@@ -4,6 +4,11 @@
 
 ## Research
 ### Calibration of the Color Redshift Relationship
+#### DESI
+One core effort from the thesis work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2) effort. DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right.
+<p align="center"> 
+<a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
+
 #### 4MOST
 As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
 
@@ -13,11 +18,6 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 (Left) The proposed 4C3R2 wide (red) and deep (blue) color selection in the Masters+ 2017 self-organizing map, which covers Euclid/Rubin like depth. Faded cells depict the estimated, complementary WAVES selection. 
 
 (Right) The existing spectroscopy in the field, from preliminary DESI results and previous, sparser high-redshift searches in the COSMOS field.
-
-#### DESI
-
-<p align="center"> 
-<a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
 
 ### Shear Calibration and Shape Measurement
@@ -29,6 +29,11 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 - DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
 - DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
 - DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
+
+## Teaching Assistantship Experience
+- Essentials of Advanced Astrophysics (LMU Munich, graduate)
+- Physics 16: Introduction to Cosmology (Stanford, undergraduate)
+- Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)
 
 ## Talks and Articles
 - American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8) <a href="/files/APS_ The role of DESI in Photo-z Inference for LSST, Euclid, and future cosmological surveys.pdf">(Slides)</a>
