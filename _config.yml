@@ -1,8 +1,9 @@
 theme: jekyll-theme-minimal
-title: Research Overview
-description: Bookmark this page to keep an eye on my project updates!
+title: About
+description: Jamie is a doctoral student studying astrophysics and cosmology at Stanford and Ludwig Maximilians Universität München (LMU), with a speciality in heirarchical Bayesian methods, weak graviational lensing surveys, and photometric redshift calibration. As part of the LMU Astrophysics, Cosmology, and Artificial Intelligence research group <a href="https://www.usm.lmu.de/Personnel_en.php#artif">(ACAI)</a>, she substantially contributed to the <a href="https://www.darkenergysurvey.org/">Dark Energy Survey</a> Y3 Analysis and is an active member in the <a href= "https://www.desi.lbl.gov/">Dark Energy Spectroscopic Instrument (DESI)</a>, and the <a href="https://www.4most.eu/cms/">4-metre Multi-Object Spectroscopic Telescope (4MOST)</a> collaborations.<p align="center"><img src="images/profile.jpg?raw=True" width = 80%; height =auto ></p> <p align="center"><img src="images/Bild004_Neg.Nr.N4.jpg?raw=True" width = 100%; height =auto ></p><p align="center">ACAI at the Wendelstein Observatory </p>
+
 # drawn via tutorial from https://github.com/githubtraining/github-pages/blob/main/config.yml
-tagline: Your sidekick in using GitHub Pages and blogs
+tagline: Jamie McCullough
 tags:
   - GitHub
   - GitHub Pages
@@ -294,3 +295,10 @@ steps:
         with: 07_next-steps.md
         data:
           deploymentUrl: '%actions.pagesUrl.data.html_url%'
+url: https://jmccull.github.io
+markdown: GFM
+defaults:
+  - scope:
+      path: "/images"
+    values:
+      image: true
