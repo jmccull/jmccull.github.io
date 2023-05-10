@@ -30,7 +30,10 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 - DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
 - DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
 
-## Teaching Assistantship Experience
+## Leadership and Teaching Assistantship Experience
+- Team Lead: DESI Topical Group on Photometric Redshifts
+- Co-Principal Investigator: 4MOST Complete Calibration of the Color Redshift Relation (4C3R2)
+
 - Essentials of Advanced Astrophysics (LMU Munich, graduate)
 - Physics 16: Introduction to Cosmology (Stanford, undergraduate)
 - Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)
