@@ -24,13 +24,17 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 <p align="center">
 <a href="{{site.url}}/images/imsims_fullsize.png?raw=True"><img src="{{site.url}}/images/imsims_fullsize.png?raw=True" width = 100%; height =auto ></a></p>
 
-## Major Publications
+## Major Publications ([ORCiD](https://orcid.org/0000-0002-4475-3456))
 - DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
 - DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
 - DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
 - DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
+- 4MOST Complete Calibration of the Color Redshift Relation: An Overview _(Gruen, McCullough et al, 2023)_ [_ESO Messenger_](https://www.eso.org/sci/publications/messenger/archive/no.190-mar23/messenger-no190-28-30.pdf)
 
-## Teaching Assistantship Experience
+## Leadership and Teaching Assistantship Experience
+- Team Lead: DESI Topical Group on Photometric Redshifts
+- Co-Principal Investigator: 4MOST Complete Calibration of the Color Redshift Relation (4C3R2)
+
 - Essentials of Advanced Astrophysics (LMU Munich, graduate)
 - Physics 16: Introduction to Cosmology (Stanford, undergraduate)
 - Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)
