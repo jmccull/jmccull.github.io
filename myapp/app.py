@@ -63,7 +63,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['A'].yaxis.set_ticklabels([])
         ax['A'].axvline(x=input.column(), linestyle='dashed',linewidth=3,color='black')
         ax['A'].axhline(y=input.row(), linestyle='dashed', linewidth=3, color='black')
-        plt.colorbar(g, ax=ax['A']).set_label(label=r'Median $z$',size=20)
+        plt.colorbar(g, ax=ax['A'], shrink=0.75).set_label(label=r'Median $z$',size=20)
 
         ax['B'].hist(zdist, bins=150, range=(0, 2),label=None)
         ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed',color='gray',label='median: {0:.3f}'.format(medians.flatten()[cellid]))
