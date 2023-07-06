@@ -15,7 +15,7 @@ def format_cell_props(unqcells,prop,shape):
 
     return np.reshape(output, shape)
 
-som = {i:np.random.rand(10) for i in np.arange(150*75)} #np.load('zdictfile.npy')
+som = {i:np.random.rand(11) for i in np.arange(150*75)} #np.load('zdictfile.npy')
 medians = np.array([np.median(som[i]) for i in som.keys()])
 medians = format_cell_props(som.keys(),medians,(150,75))
 wvlength = np.linspace(10,10000,num=300)
@@ -65,13 +65,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['A'].axhline(y=input.row(), linestyle='dashed', linewidth=3, color='black')
         plt.colorbar(g, ax=ax['A'], shrink=0.75).set_label(label=r'Median $z$',size=20)
 
-        ax['B'].hist(zdist, bins=150, range=(0, 2),label=None)
-        ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed',color='gray',label='median: {0:.3f}'.format(medians.flatten()[cellid]))
-        ax['B'].legend(loc='upper right',fontsize=14)
-        ax['B'].set_xlabel(r'$z$',fontsize=14)
-        ax['B'].set_ylabel(r'$p(z|$cell$)$',fontsize=14)
+        ax['B'].hist(zdist, bins=150, range=(0, 2), label=None)
+        ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
+        ax['B'].legend(loc='upper right', fontsize=14)
+        ax['B'].set_xlabel(r'$z$', fontsize=14)
+        ax['B'].set_ylabel(r'$p(z|$cell$)$', fontsize=14)
 
-        ax['C'].plot(wvlength,specz,'o-',color='blue')
+        ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
         ax['C'].set_xlabel(r'Rest frame $\lambda$',fontsize=14)
         ax['C'].set_ylabel('Mean Redrock Fit',fontsize=14)
 
@@ -83,7 +83,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         This is the simplest case returninig bytes, duplicates the plotting function to save
         """
         fig, ax = plt.subplot_mosaic('ABB;ACC')
-        fig.set_size_inches((22,10))
+        fig.set_size_inches((22, 10))
         # fig.set_size_inches((10,10))
         cellid, zdist, specz = get_som_data()
 
@@ -101,7 +101,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['B'].set_xlabel(r'$z$', fontsize=18)
         ax['B'].set_ylabel(r'$p(z|$cell$)$', fontsize=18)
 
-        ax['C'].plot(wvlength, specz, 'o-', color='blue')
+        ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
         ax['C'].set_xlabel(r'Rest frame $\lambda$', fontsize=18)
         ax['C'].set_ylabel('Mean Redrock Fit', fontsize=18)
         plt.tight_layout()
