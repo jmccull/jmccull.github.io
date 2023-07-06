@@ -9,6 +9,8 @@ One core effort from the thesis work is the DESI Complete Calibration of the Col
 <p align="center"> 
 <a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
+**Access the publicly available DC3R2 data set and explore the redshift distributions across the map with the [DC3R2 data visualization tool]({{site.url}}/dataproducts_dc3r2/).**
+
 #### 4MOST
 As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
 
