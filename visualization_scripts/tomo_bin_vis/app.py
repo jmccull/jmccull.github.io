@@ -17,11 +17,10 @@ cellids = np.arange(150*75).reshape((150,75)).astype(int)
 
 #user interface
 app_ui = ui.page_fluid(
-    ui.panel_title('DESI-KiDS-VIKING Redshift Distributions'),  # 1
+    ui.panel_title('DESI-KiDS-VIKING Redshift Inference'),  # 1
     ui.layout_sidebar(
         ui.panel_sidebar(
-            ui.input_slider("column", "cell column", min=0, max=74, value=30, width='100%'),  # 2
-            ui.input_slider("row", "cell row", min=0, max=149, value=30, width='100%'),  # 3
+            ui.input_slider("med_z", "Median cell redshift selection for bin", min=0, max=1.7, value=[0.3,0.6], step=0.01, width='100%',drag_range=True),  # 2
             ui.download_button("downloadData", "Download Current Figure"),
             ui.download_button("downloadall", "Download All Data"),
 
