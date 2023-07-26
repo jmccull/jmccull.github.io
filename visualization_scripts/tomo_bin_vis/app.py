@@ -9,10 +9,10 @@ cellids = np.arange(150*75).astype(int)
 
 np.random.seed(seed=107)
 binnum=150
-
-spec_cellids = np.random.randint(0,150*75,size=10000)
-spec_z = np.random.normal(loc=0.4,scale=0.5, size=10000)
-spec_mags_Z = np.random.uniform(low=17.0,high=23.0,size=10000)
+specnum = 200000
+spec_cellids = np.sort(np.random.randint(0,150*75,size=specnum))
+spec_z = np.sort(np.random.normal(loc=0.4,scale=0.4, size=specnum))
+spec_mags_Z = np.random.uniform(low=17.0,high=23.0,size=specnum)
 abund_KV_22 = np.random.randint(0,10000,size=150*75)
 #get medians everywhere:
 medians = np.array([np.median(spec_z[spec_cellids==i]) for i in cellids])
