@@ -35,7 +35,7 @@ app_ui = ui.page_fluid(
             ui.input_slider("column", "cell column", min=0, max=74, value=55, width='100%'),  # 2
             ui.input_slider("row", "cell row", min=0, max=149, value=61, width='100%'),  # 3
             ui.download_button("downloadData", "Download Current Figure"),
-            ui.download_button("downloadall", "Download All Data"),
+            #ui.download_button("downloadall", "Download All Data"),
 
 width=4, height='60px'),
         ui.panel_main(
@@ -123,15 +123,15 @@ def server(input: Inputs, output: Outputs, session: Session):
             yield buf.getvalue()
 
 
-    @session.download(filename='DC3R2_data.pkl')
-    def downloadall():
-        """
-        This should return the full data set as a collection of bytes
-        """
-        with io.BytesIO() as buf:
-            outputs = {'zdict':som,'wavelength':wvlength,'redrock_fit':spectra}
-            pickle.dump(outputs,buf)
-            print(buf)
-            yield buf.getvalue()
+    # @session.download(filename='DC3R2_data.pkl')
+    # def downloadall():
+    #     """
+    #     This should return the full data set as a collection of bytes
+    #     """
+    #     with io.BytesIO() as buf:
+    #         outputs = {'zdict':som,'wavelength':wvlength,'redrock_fit':spectra}
+    #         pickle.dump(outputs,buf)
+    #         print(buf)
+    #         yield buf.getvalue()
 
 app = App(app_ui, server)
