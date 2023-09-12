@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import io
 import pickle
+from pathlib import Path
 
 #follow web app design from https://towardsdev.com/develop-a-web-app-in-10min-and-deploy-it-for-free-3c636b2732c7
 
@@ -15,13 +16,14 @@ def format_cell_props(unqcells,prop,shape):
         output[c] = prop[i]
 
     return np.reshape(output, shape)
-with open('zdictfile.pkl','rb') as f:
+path = Path(__file__).parent
+with open(path / 'zdictfile.pkl','rb') as f:
     som = pickle.load(f)
 #som = np.load('zdictfile.npy') #{i:np.random.rand(11) for i in np.arange(150*75)}
 medians = np.array([np.median(som[i]) for i in som.keys()])
 medians = format_cell_props(som.keys(),medians,(150,75))
-wvlength = np.load('redrock_wavelengths_lowsample.npy')
-spectra = np.load('mean_redrock_fits_lowsample.npy')
+wvlength = np.load(path / 'redrock_wavelengths_lowsample.npy')
+spectra = np.load(path / 'mean_redrock_fits_lowsample.npy')
 cellids = np.arange(150*75).reshape((150,75)).astype(int)
 
 
