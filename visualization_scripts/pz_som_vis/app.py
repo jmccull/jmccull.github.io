@@ -2,6 +2,7 @@ from shiny import Inputs, Outputs, Session, App, reactive, render, req, ui
 import numpy as np
 import matplotlib.pyplot as plt
 import io
+import pickle
 
 #follow web app design from https://towardsdev.com/develop-a-web-app-in-10min-and-deploy-it-for-free-3c636b2732c7
 
@@ -14,12 +15,13 @@ def format_cell_props(unqcells,prop,shape):
         output[c] = prop[i]
 
     return np.reshape(output, shape)
-
-som = {i:np.random.rand(11) for i in np.arange(150*75)} #np.load('zdictfile.npy')
+with open('zdictfile.pkl','rb') as f:
+    som = pickle.load(f)
+#som = np.load('zdictfile.npy') #{i:np.random.rand(11) for i in np.arange(150*75)}
 medians = np.array([np.median(som[i]) for i in som.keys()])
 medians = format_cell_props(som.keys(),medians,(150,75))
-wvlength = np.linspace(10,10000,num=300)
-spectra = np.random.rand(150*75,300)#np.load('spectrafile.npy')
+wvlength = np.load('redrock_wavelengths_lowsample.npy')
+spectra = np.load('mean_redrock_fits_lowsample.npy')
 cellids = np.arange(150*75).reshape((150,75)).astype(int)
 
 
@@ -28,8 +30,8 @@ app_ui = ui.page_fluid(
     ui.panel_title('DESI-KiDS-VIKING Redshift Distributions'),  # 1
     ui.layout_sidebar(
         ui.panel_sidebar(
-            ui.input_slider("column", "cell column", min=0, max=74, value=30, width='100%'),  # 2
-            ui.input_slider("row", "cell row", min=0, max=149, value=30, width='100%'),  # 3
+            ui.input_slider("column", "cell column", min=0, max=74, value=55, width='100%'),  # 2
+            ui.input_slider("row", "cell row", min=0, max=149, value=61, width='100%'),  # 3
             ui.download_button("downloadData", "Download Current Figure"),
             ui.download_button("downloadall", "Download All Data"),
 
@@ -45,8 +47,10 @@ def server(input: Inputs, output: Outputs, session: Session):
     @reactive.Calc
     def get_som_data():
         cellid = cellids[int(input.row()), int(input.column())]
-
-        zdist = som[cellid]
+        try:
+            zdist = som[cellid]
+        except:
+            zdist = np.NaN
         specz = spectra[cellid, :]
         return cellid, zdist, specz
 
@@ -66,14 +70,17 @@ def server(input: Inputs, output: Outputs, session: Session):
         plt.colorbar(g, ax=ax['A'], shrink=0.75).set_label(label=r'Median $z$',size=20)
 
         ax['B'].hist(zdist, bins=150, range=(0, 2), label=None)
-        ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
+        ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='black', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=14)
         ax['B'].set_xlabel(r'$z$', fontsize=14)
         ax['B'].set_ylabel(r'$p(z|$cell$)$', fontsize=14)
 
         ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
+        ax['C'].axvspan(np.min(wvlength), 3600 / (1 + medians.flatten()[cellid]), alpha=0.5, color='lightgray')
+        ax['C'].axvspan(9800 / (1 + medians.flatten()[cellid]), np.max(wvlength), alpha=0.5, color='lightgray')
         ax['C'].set_xlabel(r'Rest frame $\lambda$',fontsize=14)
-        ax['C'].set_ylabel('Mean Redrock Fit',fontsize=14)
+        ax['C'].set_ylabel('Normalized Mean Redrock Fit',fontsize=14)
+        ax['C'].set_ylim([np.nanmin([-0.002,-0.3*np.nanmax(specz)]),np.nanmin([0.05,np.nanmax(specz)+0.001])])
 
         return fig
 
@@ -95,7 +102,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         plt.colorbar(g, ax=ax['A']).set_label(label=r'Median $z$', size=18)
 
         ax['B'].hist(zdist, bins=150, range=(0, 2), label=None)
-        ax['B'].axvline(x=medians.flatten()[cellid], linestyle='dashed', color='gray',
+        ax['B'].axvline(x=medians.flatten()[cellid], linestyle='dashed', color='black',
                         label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=18)
         ax['B'].set_xlabel(r'$z$', fontsize=18)
@@ -103,7 +110,10 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
         ax['C'].set_xlabel(r'Rest frame $\lambda$', fontsize=18)
-        ax['C'].set_ylabel('Mean Redrock Fit', fontsize=18)
+        ax['C'].set_ylabel('Normalized Mean Redrock Fit', fontsize=18)
+        ax['C'].axvspan(np.min(wvlength),3600/(1+medians.flatten()[cellid]),alpha=0.5,color='lightgray')
+        ax['C'].axvspan(9800/(1+medians.flatten()[cellid]),np.max(wvlength),alpha=0.5,color='lightgray')
+        ax['C'].set_ylim([np.nanmin([-0.002,-0.3*np.nanmax(specz)]),np.nanmin([0.05,np.nanmax(specz)+0.001])])
         plt.tight_layout()
 
         with io.BytesIO() as buf:
@@ -111,13 +121,15 @@ def server(input: Inputs, output: Outputs, session: Session):
             yield buf.getvalue()
 
 
-    @session.download()
-    def downloadAll():
+    @session.download(filename='DC3R2_data.pkl')
+    def downloadall():
         """
         This should return the full data set as a collection of bytes
         """
-
-        path = ('../4c3r2_messenger_selection.png') #placeholder
-        return path
+        with io.BytesIO() as buf:
+            outputs = {'zdict':som,'wavelength':wvlength,'redrock_fit':spectra}
+            pickle.dump(outputs,buf)
+            print(buf)
+            yield buf.getvalue()
 
 app = App(app_ui, server)
