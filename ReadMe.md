@@ -9,7 +9,7 @@ One core effort from the thesis work is the DESI Complete Calibration of the Col
 <p align="center"> 
 <a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
-**Access the publicly available DC3R2 data set and explore the redshift distributions across the map with the [DC3R2 data visualization tool]({{site.url}}/dataproducts_dc3r2/).**
+**Access the publicly available DC3R2 data set, data visualizations and learn more on the [DC3R2 Overview page]({{site.url}}/DC3R2_Overview).**
 
 #### 4MOST
 As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
@@ -23,10 +23,12 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 
 
 ### Shear Calibration and Shape Measurement
+The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort that examined how shear bias (our ability to understand how galaxies are sheared based upon their shapes) depends on galaxy-galaxy blending and redshift. See _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567) for more information on how image simulations are used to more deeply understand photometric surveys.
+
 <p align="center">
 <a href="{{site.url}}/images/imsims_fullsize.png?raw=True"><img src="{{site.url}}/images/imsims_fullsize.png?raw=True" width = 100%; height =auto ></a></p>
 
-## Major Publications ([ORCiD](https://orcid.org/0000-0002-4475-3456))
+## Major Publications ([ORCiD](https://orcid.org/0000-0002-4475-3456) / [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-4475-3456&sort=date+desc))
 - DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
 - DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
 - DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
@@ -34,9 +36,8 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 - 4MOST Complete Calibration of the Color Redshift Relation: An Overview _(Gruen, McCullough et al, 2023)_ [_ESO Messenger_](https://www.eso.org/sci/publications/messenger/archive/no.190-mar23/messenger-no190-28-30.pdf)
 
 ## Leadership and Teaching Assistantship Experience
-- Team Lead: DESI Topical Group on Photometric Redshifts
+- Co-Team Lead: DESI Topical Group on Photometric Redshifts
 - Co-Principal Investigator: 4MOST Complete Calibration of the Color Redshift Relation (4C3R2)
-
 - Essentials of Advanced Astrophysics (LMU Munich, graduate)
 - Physics 16: Introduction to Cosmology (Stanford, undergraduate)
 - Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)
