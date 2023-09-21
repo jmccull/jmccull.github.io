@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import io
 import pickle
 from pathlib import Path
+import matplotlib.transforms as transforms
 
 #follow web app design from https://towardsdev.com/develop-a-web-app-in-10min-and-deploy-it-for-free-3c636b2732c7
 
@@ -77,6 +78,22 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['B'].set_xlabel(r'$z$', fontsize=14)
         ax['B'].set_ylabel(r'$p(z|$cell$)$', fontsize=14)
 
+        ax['C'].axvline(x=3727,linestyle='dashed', color='gray') #OII
+        ax['C'].axvline(x=6562.8, linestyle='dashed', color='gray')  # H-alpha
+        ax['C'].axvline(x=4861, linestyle='dashed', color='gray')  # H-beta
+        ax['C'].axvline(x=3969, linestyle='dashed', color='gray')  # Ca- H
+        ax['C'].axvline(x=3933.7, linestyle='dashed', color='gray')  # Ca- K
+        #ax['C'].axvline(x=4959, linestyle='dashed', color='gray')  # OIII
+        #ax['C'].axvline(x=5007, linestyle='dashed', color='gray')  # OIII
+        trans = transforms.blended_transform_factory(ax['C'].transData, ax['C'].transAxes)
+        ax['C'].text(3727-100,0.9,"OII",color='gray',fontsize=12,transform=trans)
+        ax['C'].text(6562.8-140,0.9,r"H-$\alpha$",color='gray',fontsize=12,transform=trans)
+        ax['C'].text(4861-140,0.9,r"H-$\beta$",color='gray',fontsize=12,transform=trans)
+
+        ax['C'].text(3969+10,0.05,"H",color='gray',fontsize=12,transform=trans)
+        ax['C'].text(3933.7-120,0.05,"K",color='gray',fontsize=12,transform=trans)
+        #ax['C'].text(5007 - 150, 0.9, "OIII", color='gray', fontsize=12, transform=trans)
+
         ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
         ax['C'].axvspan(np.min(wvlength), 3600 / (1 + medians.flatten()[cellid]), alpha=0.5, color='lightgray')
         ax['C'].axvspan(9800 / (1 + medians.flatten()[cellid]), np.max(wvlength), alpha=0.5, color='lightgray')
@@ -109,6 +126,21 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['B'].legend(loc='upper right', fontsize=18)
         ax['B'].set_xlabel(r'$z$', fontsize=18)
         ax['B'].set_ylabel(r'$p(z|$cell$)$', fontsize=18)
+
+        ax['C'].axvline(x=3727, linestyle='dashed', color='gray')  # OII
+        ax['C'].axvline(x=6562.8, linestyle='dashed', color='gray')  # H-alpha
+        ax['C'].axvline(x=4861, linestyle='dashed', color='gray')  # H-beta
+        ax['C'].axvline(x=3969, linestyle='dashed', color='gray')  # Ca- H
+        ax['C'].axvline(x=3933.7, linestyle='dashed', color='gray')  # Ca- K
+        # ax['C'].axvline(x=4959, linestyle='dashed', color='gray')  # OIII
+        # ax['C'].axvline(x=5007, linestyle='dashed', color='gray')  # OIII
+        trans = transforms.blended_transform_factory(ax['C'].transData, ax['C'].transAxes)
+        ax['C'].text(3727 - 100, 0.9, "OII", color='gray', fontsize=12, transform=trans)
+        ax['C'].text(6562.8 - 140, 0.9, r"H-$\alpha$", color='gray', fontsize=12, transform=trans)
+        ax['C'].text(4861 - 140, 0.9, r"H-$\beta$", color='gray', fontsize=12, transform=trans)
+
+        ax['C'].text(3969 + 10, 0.05, "H", color='gray', fontsize=12, transform=trans)
+        ax['C'].text(3933.7 - 120, 0.05, "K", color='gray', fontsize=12, transform=trans)
 
         ax['C'].plot(wvlength, specz, 'o-', markersize=0.9, color='blue')
         ax['C'].set_xlabel(r'Rest frame $\lambda$', fontsize=18)
