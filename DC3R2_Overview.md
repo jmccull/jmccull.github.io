@@ -1,8 +1,9 @@
-# DESI Complete Calibration of the Color-Redshift Relation
+# DESI Complete Calibration of the Color-Redshift Relation (DC3R2)
+McCullough _et al._ 2023
 
 ## Abstract
 We present initial results from the Dark Energy Spectroscopic Instrument (DESI) Complete Calibration of the Color-Redshift
-Relation (DC3R2) secondary target survey. Our analysis uses 230k galaxies that overlap with KiDS-VIKING ugriZYHJK푠
+Relation (DC3R2) secondary target survey. Our analysis uses 230k galaxies that overlap with KiDS-VIKING _ugriZYHJKs_
 photometry to calibrate the color-redshift relation and to inform photometric redshift (photo-z) inference methods of future
 weak lensing surveys. Together with Emission Line Galaxies (ELGs), Luminous Red Galaxies (LRGs), and the Bright Galaxy
 Survey (BGS) that provide samples of complementary color, the DC3R2 targets help DESI to span 56% of the color space
