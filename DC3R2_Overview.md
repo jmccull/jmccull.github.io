@@ -21,6 +21,6 @@ need for carefully chosen deep drilling fields, and survey simulation to model t
   - [Redshift Distributions and SEDs](/dataproducts_dc3r2/)
     <a href="{{site.url}}/images/pz_dist.png?raw=True"><img src="{{site.url}}/images/pz_dist.png?raw=True" width = 100%; height =auto></a></p>
   - [Exposure Time and Magnitude Distributions](/dataproducts_dc3r2/exposure_time/)
-    <a href="{{site.url}}/images/tomobin.png?raw=True"><img src="{{site.url}}/images/tomobin.png?raw=True" width = 100%; height =auto></a></p>
-  - [Spectroscopic Selection Effects and Redshift Inference via Tomography](/dataproducts_dc3r2/tomography/)
     <a href="{{site.url}}/images/exptimes.png?raw=True"><img src="{{site.url}}/images/exptimes.png?raw=True" width = 100%; height =auto></a></p>
+  - [Spectroscopic Selection Effects and Redshift Inference via Tomography](/dataproducts_dc3r2/tomography/)
+    <a href="{{site.url}}/images/tomobin.png?raw=True"><img src="{{site.url}}/images/tomobin.png?raw=True" width = 100%; height =auto></a></p>
