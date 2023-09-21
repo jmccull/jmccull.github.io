@@ -113,7 +113,7 @@ app_ui = ui.page_fluid(
     ui.layout_sidebar(
         ui.panel_sidebar(
             ui.input_checkbox("smooth","Apply Smoothing",value=True),
-            ui.input_numeric("npts","SavGol Smoothing Amount", value=21,step=2),
+            ui.input_numeric("npts","SavGol Smoothing Amount", value=21,step=2,min=7,max=297),
             ui.input_slider("med_z", "Median cell redshift selection for tomographic bin", min=0, max=1.7, value=[0.2,0.6], step=0.01, width='100%',drag_range=True),  # 2
             ui.input_slider("magcut", "Wide-field Magnitude Cut, MAG_GAAP_Z", min=15.0, max=22.0, value=22.0, step=0.08,width='100%'),
             ui.input_slider("spec_mag_cut", "Spectroscopic Magnitude Cut, MAG_GAAP_Z", min=15.0, max=23.0, value=22.0, step=0.01, width='100%'),
