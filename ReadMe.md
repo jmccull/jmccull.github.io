@@ -5,7 +5,9 @@
 ## Research
 ### Calibration of the Color Redshift Relationship
 #### DESI
-One core effort from the thesis work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2) effort. DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right.
+One core effort from the thesis work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2). DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right. The limitation on redshift range comes from the optical nature of the DESI spectrograph, as you can see an example spectrum below getting losing spectral features in the DESI sensitivity range as it becomes more distant and highly redshifted.
+<p align="center">
+<a href="{{site.url}}/images/redshifting_oii.gif?raw=True"><img src="{{site.url}}/images/redshifting_oii.gif?raw=True" width = 100%; height =auto ></a></p>
 <p align="center"> 
 <a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
