@@ -17,7 +17,7 @@ need for carefully chosen deep drilling fields, and survey simulation to model t
 - The paper, [arxiv](), [MNRAS]() _[links coming soon]_
 - To reproduce the figures in the paper, see the data and jupyter notebook available on [Zenodo](https://zenodo.org/record/8328495)
 - _Coming soon_: A value added catalog for [DESI's Early Data Release](https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs)
-- **Data visualization widgets:** Explore the data set in your browser to understand how color, redshift, and SED type are related, alongside exposure times and the effects of bias photometric redshift inference.
+- **Data visualization widgets:** Explore the data set in your browser to understand how color, redshift, and SED type are related, alongside exposure times and the effects of bias on photometric redshift inference. Note that this runs best in full screen and may take a moment to load on first viewing.
   - [Redshift Distributions and SEDs](/dataproducts_dc3r2/)
   - [Exposure Time and Magnitude Distributions](/dataproducts_dc3r2/exposure_time/)
   - [Spectroscopic Selection Effects and Redshift Inference via Tomography](/dataproducts_dc3r2/tomography/)
