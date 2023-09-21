@@ -95,7 +95,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['B'].hist(exptimes_fail, bins=50, range=(0, 100), alpha=0.5, label=r'Unsuccessful $z$')
         ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=14)
-        ax['B'].set_xlabel(r'Exposure Times (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
+        ax['B'].set_xlabel(r'Required Exposure Times, (min) (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
         ax['B'].set_ylabel(r'$p(exptime|$cell$)$', fontsize=14)
 
         hists, edges = np.histogram(mags,bins=20,range=(18,23))
@@ -126,7 +126,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['B'].hist(exptimes_fail, bins=50, range=(0, 100), alpha=0.5, label=r'Unsuccessful $z$')
         ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=14)
-        ax['B'].set_xlabel(r'Exposure Times (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
+        ax['B'].set_xlabel(r'Required Exposure Times, (min) (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
         ax['B'].set_ylabel(r'$p(exptime|$cell$)$', fontsize=14)
 
         hists, edges = np.histogram(mags,bins=20,range=(18,23))
