@@ -152,9 +152,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         plt.axvline(x = meanz_cut,linestyle='dashed',color='red',label=r'$\overline{z}_{\mathrm{spec\ cut}} = $'+'{0:.4f}'.format(meanz_cut))
         plt.axvline(x = meanz,linestyle='dashed',color='gray',label=r'$\overline{z} = $'+'{0:.4f}'.format(meanz))
         ax = plt.gca()
-        ax.text(0.65,0.85,'$|\Delta \overline{z}| = $'+'{0:.4f}'.format(np.abs(meanz-meanz_cut)),color='gray',
+        ax.text(0.85,1.115,'$|\Delta \overline{z}| = $'+'{0:.4f}'.format(np.abs(meanz-meanz_cut)),color='gray', #0.65,0.85
                 fontsize=20,transform=ax.transAxes)
-        ax.text(0.541, 0.9, 'MAG_GAAP_Z Wide < ' + '{0:.2f}'.format(input.magcut()), color='gray',
+        ax.text(0.741, 1.05, 'MAG_GAAP_Z Wide < ' + '{0:.2f}'.format(input.magcut()), color='gray', #0.541, 0.9
                 fontsize=20, transform=ax.transAxes)
         plt.xlabel(r'Redshift, $z$',fontsize=20)
         plt.ylabel(r'$N(z)$',fontsize=20)
