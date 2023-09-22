@@ -31,11 +31,12 @@ The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort 
 <a href="{{site.url}}/images/imsims_fullsize.png?raw=True"><img src="{{site.url}}/images/imsims_fullsize.png?raw=True" width = 100%; height =auto ></a></p>
 
 ## Major Publications ([ORCiD](https://orcid.org/0000-0002-4475-3456) / [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-4475-3456&sort=date+desc))
-- DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
-- DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
-- DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
-- DESI Complete Calibration of the Color Redshift Relation _(McCullough et al, in prep)_
-- 4MOST Complete Calibration of the Color Redshift Relation: An Overview _(Gruen, McCullough et al, 2023)_ [_ESO Messenger_](https://www.eso.org/sci/publications/messenger/archive/no.190-mar23/messenger-no190-28-30.pdf)
+- DES Y3 Results: Blending shear and redshift biases in image simulations, _(MacCrann et al., 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567), [_MNRAS_](https://academic.oup.com/mnras/article-abstract/509/3/3371/6385771)
+- DES Y3 Results: Weak Lensing Shape Catalog, _(Gatti et al., 2021)_ [arxiv](https://arxiv.org/pdf/2011.03408.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/504/3/4312/6211014)
+- DES Y3 Results: Redshift Calibration of the Weak Lensing Source Galaxies, _(Myles & Alarcon et al., 2021)_ [arxiv](https://arxiv.org/pdf/2012.08566.pdf), [_MNRAS_](https://academic.oup.com/mnras/article/505/3/4249/6286909)
+- DESI Complete Calibration of the Color Redshift Relation _(McCullough et al., 2023, submitted to MNRAS)_
+- 4MOST Complete Calibration of the Color Redshift Relation: An Overview _(Gruen & McCullough et al., 2023)_ [_ESO Messenger_](https://www.eso.org/sci/publications/messenger/archive/no.190-mar23/messenger-no190-28-30.pdf)
+- DES Y3: Cosmic shear in color and intrinsic alignment, _(McCullough et al, in prep)_
 
 ## Leadership and Teaching Assistantship Experience
 - Co-Team Lead: DESI Topical Group on Photometric Redshifts

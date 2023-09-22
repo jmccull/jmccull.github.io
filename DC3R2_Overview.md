@@ -20,8 +20,8 @@ need for carefully chosen deep drilling fields, and survey simulation to model t
 - _Coming soon_: A value added catalog for [DESI's Early Data Release](https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs)
 - **Data visualization widgets:** Explore the data set in your browser to understand how color, redshift, and SED type are related, alongside exposure times and the effects of bias on photometric redshift inference. Note that this runs best in full screen and may take a moment to load on first viewing.
   - [Redshift Distributions and SEDs](/dataproducts_dc3r2/)
-    <a href="{{site.url}}/images/pz_dist.png?raw=True"><img src="{{site.url}}/images/pz_dist.png?raw=True" width = 100%; height =auto></a></p>
+    <a href="{{site.url}}/dataproducts_dc3r2/"><img src="{{site.url}}/images/pz_dist.png?raw=True" width = 100%; height =auto></a></p>
   - [Exposure Time and Magnitude Distributions](/dataproducts_dc3r2/exposure_time/)
-    <a href="{{site.url}}/images/exptimes.png?raw=True"><img src="{{site.url}}/images/exptimes.png?raw=True" width = 100%; height =auto></a></p>
+    <a href="{{site.url}}/dataproducts_dc3r2/exposure_time/"><img src="{{site.url}}/images/exptimes.png?raw=True" width = 100%; height =auto></a></p>
   - [Spectroscopic Selection Effects and Redshift Inference via Tomography](/dataproducts_dc3r2/tomography/)
-    <a href="{{site.url}}/images/tomobin.png?raw=True"><img src="{{site.url}}/images/tomobin.png?raw=True" width = 100%; height =auto></a></p>
+    <a href="{{site.url}}/dataproducts_dc3r2/tomography/"><img src="{{site.url}}/images/tomobin.png?raw=True" width = 100%; height =auto></a></p>
