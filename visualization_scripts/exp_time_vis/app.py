@@ -91,10 +91,11 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['A'].axhline(y=input.row(), linestyle='dashed', linewidth=3, color='black')
         plt.colorbar(g, ax=ax['A'], shrink=0.75).set_label(label=r'Median Exposure Time Required (min)',size=20)
 
-        ax['B'].hist(exptimes_succ, bins=50, range=(0,100), alpha=0.5, label=r'Successful $z$')
-        ax['B'].hist(exptimes_fail, bins=50, range=(0, 100), alpha=0.5, label=r'Unsuccessful $z$')
+        ax['B'].hist(exptimes_succ, bins=np.logspace(-2,2,num=50), range=(0,100), alpha=0.5, label=r'Successful $z$')
+        ax['B'].hist(exptimes_fail, bins=np.logspace(-2,2,num=50), range=(0, 100), alpha=0.5, label=r'Unsuccessful $z$')
         ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=14)
+        ax['B'].set_xscale('log')
         ax['B'].set_xlabel(r'Required Exposure Times, (min) (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
         ax['B'].set_ylabel(r'$p(exptime|$cell$)$', fontsize=14)
 
@@ -122,10 +123,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax['A'].axhline(y=input.row(), linestyle='dashed', linewidth=3, color='black')
         plt.colorbar(g, ax=ax['A'], shrink=0.75).set_label(label=r'Median Exposure Time Required (min)',size=20)
 
-        ax['B'].hist(exptimes_succ, bins=50, range=(0,100), alpha=0.5, label=r'Successful $z$')
-        ax['B'].hist(exptimes_fail, bins=50, range=(0, 100), alpha=0.5, label=r'Unsuccessful $z$')
-        ax['B'].axvline(x=medians.flatten()[cellid],linestyle='dashed', color='gray', label='median: {0:.3f}'.format(medians.flatten()[cellid]))
+        ax['B'].hist(exptimes_succ, bins=np.logspace(-2, 2, num=50), range=(0, 100), alpha=0.5, label=r'Successful $z$')
+        ax['B'].hist(exptimes_fail, bins=np.logspace(-2, 2, num=50), range=(0, 100), alpha=0.5,
+                     label=r'Unsuccessful $z$')
+        ax['B'].axvline(x=medians.flatten()[cellid], linestyle='dashed', color='gray',
+                        label='median: {0:.3f}'.format(medians.flatten()[cellid]))
         ax['B'].legend(loc='upper right', fontsize=14)
+        ax['B'].set_xscale('log')
         ax['B'].set_xlabel(r'Required Exposure Times, (min) (Scaled to $\Delta \chi^2 = 40$, $Z_{fiber} = 21.0$)', fontsize=14)
         ax['B'].set_ylabel(r'$p(exptime|$cell$)$', fontsize=14)
 
