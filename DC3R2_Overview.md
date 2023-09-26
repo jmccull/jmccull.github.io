@@ -15,7 +15,7 @@ KiDS-VIKING photometry introduces a dominant, apparent magnitude dependence of r
 need for carefully chosen deep drilling fields, and survey simulation to model this effect for future weak lensing surveys.
 
 ## Available data products
-- The paper, [arxiv](), [MNRAS]() _[links coming soon]_
+- The paper, [arxiv](https://arxiv.org/abs/2309.13109), [MNRAS]() _[journal link coming soon]_
 - To reproduce the figures in the paper, see the data and jupyter notebook available on [Zenodo](https://zenodo.org/record/8328495)
 - _Coming soon_: A value added catalog for [DESI's Early Data Release](https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs)
 - **Data visualization widgets:** Explore the data set in your browser to understand how color, redshift, and SED type are related, alongside exposure times and the effects of bias on photometric redshift inference. Note that this runs best in full screen and may take a moment to load on first viewing.
