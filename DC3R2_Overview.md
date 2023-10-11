@@ -16,6 +16,7 @@ need for carefully chosen deep drilling fields, and survey simulation to model t
 
 ## Available data products
 - The paper, [arxiv](https://arxiv.org/abs/2309.13109), [MNRAS]() _[journal link coming soon]_
+- The [Astrobites summary](https://astrobites.org/2023/10/02/dc3r2/), put together by Katherine Lee
 - To reproduce the figures in the paper, see the data and jupyter notebook available on [Zenodo](https://zenodo.org/record/8328495)
 - _Coming soon_: A value added catalog for [DESI's Early Data Release](https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs)
 - **Data visualization widgets:** Explore the data set in your browser to understand how color, redshift, and SED type are related, alongside exposure times and the effects of bias on photometric redshift inference. Note that this runs best in full screen and may take a moment to load on first viewing.
