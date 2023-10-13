@@ -43,8 +43,13 @@ The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort 
 - Co-Principal Investigator: 4MOST Complete Calibration of the Color Redshift Relation (4C3R2)
 - Essentials of Advanced Astrophysics (LMU Munich, graduate)
 - Physics 16: Introduction to Cosmology (Stanford, undergraduate)
-- Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)
-
+- Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)\
+  
+## Teaching Resources
+Do you have a cheap, plastic spectrometer (e.g. [this one](https://www.amazon.com/EISCO-Premium-Quantitative-Spectroscope-Accuracy/dp/B00B84DGDA/ref=sr_1_3?keywords=spectrometer&qid=1697226639&sr=8-3))? Explore the properties of light and spectroscopy and make a measurement for how long the sun can burn! 
+- student worksheet <a href="/files/Spectroscopy_and_Stellar_Physics.pdf">(here)</a>
+- instructor solutions <a href="/files/Spectroscopy_and_Stellar_Physics_solutions.pdf">(here)</a>
+  
 ## Talks and Articles
 - American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8) <a href="/files/APS_ The role of DESI in Photo-z Inference for LSST, Euclid, and future cosmological surveys.pdf">(Slides)</a>
 - A KIPAC Blogpost: [_(How to tease out the tiniest distortions of galaxy shapes to probe the secrets of the Universe)_](https://www.darkenergysurvey.org/darchive/how-to-tease-out-the-tiniest-distortions-of-galaxy-shapes-to-probe-the-secrets-of-the-universe/) 
