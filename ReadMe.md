@@ -42,7 +42,7 @@ The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort 
 - Co-Team Lead: DESI Topical Group on Photometric Redshifts
 - Co-Principal Investigator: 4MOST Complete Calibration of the Color Redshift Relation (4C3R2)
 - Essentials of Advanced Astrophysics (LMU Munich, graduate)
-- Physics 16: Introduction to Cosmology (Stanford, undergraduate)
+- Physics 16: Origin and Development of the Cosmos (Stanford, undergraduate)
 - Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)\
   
 ## Teaching Resources
