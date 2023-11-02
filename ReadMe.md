@@ -5,7 +5,7 @@
 ## Research
 ### Calibration of the Color Redshift Relationship
 #### DESI
-One core effort from the thesis work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2, see the [astrobites summary](https://astrobites.org/2023/10/02/dc3r2/)). DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right. The limitation on redshift range comes from the optical nature of the DESI spectrograph, as you can see an example spectrum below losing spectral features in the DESI sensitivity range (unshaded) as it becomes more distant and highly redshifted. The common feature of the OII doublet is marked in blue.
+One core effort from my work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2, see the [astrobites summary](https://astrobites.org/2023/10/02/dc3r2/)). DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right. The limitation on redshift range comes from the optical nature of the DESI spectrograph, as you can see an example spectrum below losing spectral features in the DESI sensitivity range (unshaded) as it becomes more distant and highly redshifted. The common feature of the OII doublet is marked in blue.
 <p align="center">
 <a href="{{site.url}}/files/redshifting_oii.gif?raw=True"><img src="{{site.url}}/files/redshifting_oii.gif?raw=True" width = 100%; height =auto ></a></p>
 <p align="center"> 
@@ -14,7 +14,7 @@ One core effort from the thesis work is the DESI Complete Calibration of the Col
 **Access the publicly available DC3R2 data set, data visualizations and learn more on the [DC3R2 Overview page]({{site.url}}/DC3R2_Overview).**
 
 #### 4MOST
-As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, much of the thesis work has been to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
+As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Relationship (4C3R2)](https://www.4most.eu/cms/science/extragalactic-community-surveys/) extragalactic survey, I aim to fill the spectroscopic color-space that galaxies visible to the future, ultra-deep lensing surveys will span. 4C3R2 aims to uniformly cover with high multiplicity the color space complementary to WAVES, as seen in the figure below.
 
 <p align="center">
 <a href="{{site.url}}/images/4c3r2_messenger_selection.png?raw=True"><img src="{{site.url}}/images/4c3r2_messenger_selection.png?raw=True" width = 100%; height =auto ></a></p>
@@ -23,9 +23,8 @@ As one of the PIs for the [4MOST Complete Calibration of the Color Redshift Rela
 
 (Right) The existing spectroscopy in the field, from preliminary DESI results and previous, sparser high-redshift searches in the COSMOS field.
 
-
 ### Shear Calibration and Shape Measurement
-The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort that examined how shear bias (our ability to understand how galaxies are sheared based upon their shapes) depends on galaxy-galaxy blending and redshift. See _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567) for more information on how image simulations are used to more deeply understand photometric surveys.
+The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort that examined how shear bias (our ability to understand how galaxies are sheared based upon their shapes) depends on galaxy-galaxy blending and redshift, or distance. See _(MacCrann et al 2022)_ [arxiv](https://arxiv.org/pdf/2012.08567) for more information on how image simulations are used to more deeply understand photometric surveys and this [article](https://www.darkenergysurvey.org/darchive/how-to-tease-out-the-tiniest-distortions-of-galaxy-shapes-to-probe-the-secrets-of-the-universe/) for a high level summary.
 
 <p align="center">
 <a href="{{site.url}}/images/imsims_fullsize.png?raw=True"><img src="{{site.url}}/images/imsims_fullsize.png?raw=True" width = 100%; height =auto ></a></p>
@@ -50,7 +49,7 @@ Do you have a cheap, plastic spectrometer (e.g. [this one](https://www.amazon.co
 - student worksheet <a href="/files/Spectroscopy_and_Stellar_Physics.pdf">(here)</a>
 - instructor solutions <a href="/files/Spectroscopy_and_Stellar_Physics_solutions.pdf">(here)</a>
   
-## Talks and Articles
+## Some Talks and Articles
 - American Physical Society April Meeting, 2022, [_(The Role of DESI in Photo-z Inference for LSST, Euclid, and Future Cosmological Surveys)_](https://meetings.aps.org/Meeting/APR22/Session/H13.8) <a href="/files/APS_ The role of DESI in Photo-z Inference for LSST, Euclid, and future cosmological surveys.pdf">(Slides)</a>
 - A KIPAC Blogpost: [_(How to tease out the tiniest distortions of galaxy shapes to probe the secrets of the Universe)_](https://www.darkenergysurvey.org/darchive/how-to-tease-out-the-tiniest-distortions-of-galaxy-shapes-to-probe-the-secrets-of-the-universe/) 
 - Poster: [_(Detection Sensitivity for the Gemini Planet Imager (GPI) to Potential Europa Plumes)_](https://essopenarchive.org/doi/full/10.1002/essoar.10502035.1)
