@@ -53,8 +53,8 @@ The Dark Energy Survey Year 3 (DESY3) produced a novel shear calibration effort 
 - Physics 100: Introduction to Observational Astronomy (Stanford, upper division undergraduate)\
   
 ## Teaching Resources
+ **Access a collection of didactic figures freely available on the [visualizations page]({{site.url}}/visualizations).**
 Do you have a cheap, plastic spectrometer (e.g. [this one](https://www.amazon.com/EISCO-Premium-Quantitative-Spectroscope-Accuracy/dp/B00B84DGDA/ref=sr_1_3?keywords=spectrometer&qid=1697226639&sr=8-3))? Explore the properties of light and spectroscopy and make a measurement for how long the sun can burn! 
-- **Access a collection of didactic figures freely available on the [visualizations page]({{site.url}}/visualizations).**
 - student worksheet <a href="/files/Spectroscopy_and_Stellar_Physics.pdf">(here)</a>
 - instructor solutions <a href="/files/Spectroscopy_and_Stellar_Physics_solutions.pdf">(here)</a>
   
