@@ -15,7 +15,7 @@ KiDS-VIKING photometry introduces a dominant, apparent magnitude dependence of r
 need for carefully chosen deep drilling fields, and survey simulation to model this effect for future weak lensing surveys.
 
 ## Available data products
-- The paper, [arxiv](https://arxiv.org/abs/2309.13109), [MNRAS]() _[journal link coming soon]_
+- The paper, [arxiv](https://arxiv.org/abs/2309.13109), [MNRAS](https://academic.oup.com/mnras/article/531/2/2582/7686823)
 - The [Astrobites summary](https://astrobites.org/2023/10/02/dc3r2/), put together by Katherine Lee
 - To reproduce the figures in the paper, see the data and jupyter notebook available on [Zenodo](https://zenodo.org/record/8328495)
 - _Coming soon_: A value added catalog for [DESI's Early Data Release](https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs)
