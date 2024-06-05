@@ -8,14 +8,11 @@ Galaxies put out a lot of light, and that light tells us a great deal about the 
 <p align="center">
 <a href="{{site.url}}/files/balmer_break_grizy.gif?raw=True"><img src="{{site.url}}/files/balmer_break_grizy.gif?raw=True" width = 100%; height =auto ></a></p>
 
-If we can combine distance information with galaxy shapes, we can tease out distortions in light from large scale structure. Pictured on the left is a model of the effect massive galaxies have on background light. We can see the thickness of the lens acts as a proxy for the amount of matter, and that light is warped tangentially to the center of our galaxy proxy. Because this relies so heavily on distance and the geometry of the lens-background pair, good shape measurement and good distance estimators are crucial.
-<p align="left">
-<a href="{{site.url}}/files/lensing_distanceshift.gif?raw=True"><img src="{{site.url}}/files/lensing_distanceshift.gif?raw=True" width = 100%; height =auto ></a></p>
+If we can combine distance information with galaxy shapes, we can tease out distortions in light from large scale structure. Because the amount of lensing, or distortion of galaxy shape, relies so heavily on distance and the geometry of the lens-background pair, good shape measurement and good distance estimators are crucial.
 
 #### DESI
-One core effort from my work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2, see the [astrobites summary](https://astrobites.org/2023/10/02/dc3r2/)). DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right. The limitation on redshift range comes from the optical nature of the DESI spectrograph, as you can see an example spectrum below losing spectral features in the DESI sensitivity range (unshaded) as it becomes more distant and highly redshifted. The common feature of the OII doublet is marked in blue.
-<p align="center">
-<a href="{{site.url}}/files/redshifting_oii.gif?raw=True"><img src="{{site.url}}/files/redshifting_oii.gif?raw=True" width = 100%; height =auto ></a></p>
+One core effort from my work is the DESI Complete Calibration of the Color Redshift Relationship (DC3R2, see the [astrobites summary](https://astrobites.org/2023/10/02/dc3r2/)). DC3R2 began as a spare fiber proposal that made use of existing 9-band (ugriZYJHKs) photometry in the KiDS-VIKING northern field to select by color. The result is a collection of galaxies that have sufficient photometric information to break most color-redshift degeneracies as well incredibly accurate DESI spectroscopic redshifts. In the figure below, on the left hand side you can see how DESI alone compares to the much smaller, but very well studied COSMOS field on the right.
+
 <p align="center"> 
 <a href="{{site.url}}/images/DESI coverage.png?raw=True"><img src="{{site.url}}/images/DESI coverage.png?raw=True" width = 100%; height =auto></a></p>
 
