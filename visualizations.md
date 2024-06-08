@@ -18,6 +18,9 @@ All demonstrations here are freely used in any form with attribution.
 <p align="center">
 <a href="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True" width = 100%; height =auto ></a></p>
 
+<p align="center">
+<a href="{{site.url}}/files/som_visualization_gauss-resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gauss-resized.gif?raw=True" width = 100%; height =auto ></a></p>
+
 ### Redshift and Color
 <p align="center">
 <a href="{{site.url}}/files/balmer_break_grizy.gif?raw=True"><img src="{{site.url}}/files/balmer_break_grizy.gif?raw=True" width = 100%; height =auto ></a></p>
