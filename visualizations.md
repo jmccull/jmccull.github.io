@@ -19,7 +19,7 @@ All demonstrations here are freely used in any form with attribution.
 <a href="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True" width = 100%; height =auto ></a></p>
 
 <p align="center">
-<a href="{{site.url}}/files/som_visualization_gauss-resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gauss-resized.gif?raw=True" width = 100%; height =auto ></a></p>
+<a href="{{site.url}}/files/som_visualization_gauss-resize.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gauss-resize.gif?raw=True" width = 100%; height =auto ></a></p>
 
 ### Redshift and Color
 <p align="center">
