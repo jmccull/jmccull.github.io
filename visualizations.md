@@ -14,14 +14,14 @@ All demonstrations here are freely used in any form with attribution.
 
 ### Self Organizing Maps
 <p align="center">
-<a href="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gif_resized.gif?raw=True" width = 100%; height =auto ></a></p>
+<a href="{{site.url}}/files/som_visualization_wmap-cropped-resized.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gif_wmap_-cropped-resized.gif?raw=True" width = 100%; height =auto ></a></p>
 
 <p align="center">
-<a href="{{site.url}}/files/som_visualization_gauss-resize.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gauss-resize.gif?raw=True" width = 100%; height =auto ></a></p>
+<a href="{{site.url}}/files/som_visualization_gauss_wmap-cropped_smallsize.gif?raw=True"><img src="{{site.url}}/files/som_visualization_gauss_wmap-cropped_smallsize.gif?raw=True" width = 100%; height =auto ></a></p>
 
 ### Strong Lensing
 <p align="center">
-<a href="{{site.url}}/files/cleaner_grid-gif_bright.gif?raw=True"><img src="{{site.url}}/files/cleaner_grid-gif_bright.gif?raw=True" width = 100%; height =auto ></a></p>
+<a href="{{site.url}}/files/cleaner_grid-gif_brighter.gif?raw=True"><img src="{{site.url}}/files/cleaner_grid-gif_brighter.gif?raw=True" width = 100%; height =auto ></a></p>
 
 <p align="center">
 <a href="{{site.url}}/files/hubble_deep_stronglens.gif?raw=True"><img src="{{site.url}}/files/hubble_deep_stronglens.gif?raw=True" width = 100%; height =auto ></a></p>
