@@ -1,5 +1,5 @@
 # DESI Complete Calibration of the Color-Redshift Relation (DC3R2)
-McCullough _et al._ 2023
+McCullough _et al._ 2024
 
 ## Abstract
 We present initial results from the Dark Energy Spectroscopic Instrument (DESI) Complete Calibration of the Color-Redshift
