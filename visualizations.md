@@ -32,3 +32,17 @@ All demonstrations here are freely used in any form with attribution.
 
 <p align="center">
 <a href="{{site.url}}/files/lensing_distanceshift.gif?raw=True"><img src="{{site.url}}/files/lensing_distanceshift.gif?raw=True" width = 100%; height =auto ></a></p>
+
+$ curl https://jmccull.github.io/visualizations/
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <link rel="canonical" href="https://jamiemccullough.github.io/visualization/figures/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=https://jamiemccullough.github.io/visualization/figures/" />
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
