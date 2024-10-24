@@ -27,3 +27,17 @@ need for carefully chosen deep drilling fields, and survey simulation to model t
     <a href="{{site.url}}/dataproducts_dc3r2/exposure_time/"><img src="{{site.url}}/images/exptimes.png?raw=True" width = 100%; height =auto></a></p>
   - [Spectroscopic Selection Effects and Redshift Inference via Tomography](/dataproducts_dc3r2/tomography/)
     <a href="{{site.url}}/dataproducts_dc3r2/tomography/"><img src="{{site.url}}/images/tomobin.png?raw=True" width = 100%; height =auto></a></p>
+
+$ curl https://jmccull.github.io/DC3R2_Overview/
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <link rel="canonical" href="https://jamiemccullough.github.io/data/dc3r2/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=https://jamiemccullough.github.io/data/dc3r2/" />
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
