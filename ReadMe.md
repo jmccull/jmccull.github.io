@@ -1,3 +1,17 @@
+$ curl https://jmccull.github.io/
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <link rel="canonical" href="https://jamiemccullough.github.io" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=https://jamiemccullough.github.io" />
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
+
 <a href="{{site.url}}/images/affiliations.png?raw=True"><img src="{{site.url}}/images/affiliations.png?raw=True" width=70%; height =auto ></a>
 
 # Jamie McCullough
