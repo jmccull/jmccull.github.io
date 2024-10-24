@@ -1,0 +1,3 @@
+"/": "https://jamiemccullough.github.io/",
+"/visualizations": "https://jamiemccullough.github.io/visualizations/figures/",
+"/DC3R2_Overview": "https://jamiemccullough.github.io/data/dc3r2/",
