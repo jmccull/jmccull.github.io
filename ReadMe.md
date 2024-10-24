@@ -1,17 +1,3 @@
-$ curl https://jmccull.github.io/
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Redirecting...</title>
-    <link rel="canonical" href="https://jamiemccullough.github.io" />
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=https://jamiemccullough.github.io" />
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
-</html>
-
 <a href="{{site.url}}/images/affiliations.png?raw=True"><img src="{{site.url}}/images/affiliations.png?raw=True" width=70%; height =auto ></a>
 
 # Jamie McCullough
@@ -77,3 +63,17 @@ Do you have a cheap, plastic spectrometer (e.g. [this one](https://www.amazon.co
 - [Spectral Analysis of Spacecraft Via HETDEX](https://repositories.lib.utexas.edu/handle/2152/65094)
 - A Brief Introduction to [Heavy Element Synthesis and Neutron Star Mergers](http://large.stanford.edu/courses/2021/ph241/mccullough2/)
 - An Aside on the [Bussard Ramjet](http://large.stanford.edu/courses/2021/ph241/mccullough1/)
+
+$ curl https://jmccull.github.io/
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <link rel="canonical" href="https://jamiemccullough.github.io" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=https://jamiemccullough.github.io" />
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
